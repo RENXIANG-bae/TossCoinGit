@@ -4,6 +4,9 @@ count1=0
 count2=0
 A=["Heads","Tails"]
 
+name=raw_input("Who are you?\n>")
+print("Hello,"+name+"!")
+
 print("Tossing a coin...")
 
 for i in range(1,4):
@@ -17,6 +20,6 @@ for i in range(1,4):
 print("Heads:%d Tails:%d" %(count1,count2))
 
 if count1>count2:
- print("You win!")
+ print(name+" win!")
 else:
- print("You lost!")
+ print(name+" lost!")
