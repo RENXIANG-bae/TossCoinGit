@@ -4,6 +4,9 @@ count1=0
 count2=0
 A=["Heads","Tails"]
 
+name=raw_input("Who are you?\n>")
+print("Hello,"+name+"!")
+
 print("Tossing a coin...")
 
 for i in range(1,4):
