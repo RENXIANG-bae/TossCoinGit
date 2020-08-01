@@ -15,3 +15,8 @@ for i in range(1,4):
      count2+=1
 
 print("Heads:%d Tails:%d" %(count1,count2))
+
+if count1>count2:
+ print("You win!")
+else:
+ print("You lost!")
